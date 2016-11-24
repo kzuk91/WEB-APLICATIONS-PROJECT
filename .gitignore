@@ -1,0 +1,52 @@
+*.a
+*.o
+*.o.d
+# built application files
+*.apk
+*.ap_
+
+
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+*.classpath
+.project
+*.iml
+.settings
+
+# maven:
+target/
+*/WEB-INF/lib/*.jar
+*.jar
+/integration/.settings
+/entities/.settings
+
+/portal/docroot/WEB-INF/classes
+
+
+.metadata
+*.pyc
+/.idea/
+.idea
+**/.idea/
+*.log
+*.pkl
+.factorypath
+.JETEmitters
+*.bak*
+.DS_Store
+.studio/
+.sqlxeditor_project/
+.orig
+rebel.xml
